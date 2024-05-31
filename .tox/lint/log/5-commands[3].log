@@ -1,0 +1,32 @@
+name: lint
+run_id: commands[3]
+env APPDATA: C:\Users\user\AppData\Roaming
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env NUMBER_OF_PROCESSORS: 12
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES: C:\Program Files
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SSL_CERT_FILE: C:\Users\user\anaconda3\envs\myenv\Library\ssl\cacert.pem
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\user\AppData\Local\Temp
+env TMP: C:\Users\user\AppData\Local\Temp
+env USERPROFILE: C:\Users\user
+env LANG: en_US.UTF-8
+env PATH: D:\Sentiment\sentiment_webapp\.tox\test_app\Scripts;C:\Users\user\anaconda3\envs\myenv;C:\Users\user\anaconda3\envs\myenv\Library\mingw-w64\bin;C:\Users\user\anaconda3\envs\myenv\Library\usr\bin;C:\Users\user\anaconda3\envs\myenv\Library\bin;C:\Users\user\anaconda3\envs\myenv\Scripts;C:\Users\user\anaconda3\envs\myenv\bin;C:\Users\user\anaconda3\condabin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\user\AppData\Local\Programs\Python\Python310;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\msys64\mingw64\bin;C:\Users\user\AppData\Local\Programs\MiKTeX\miktex\bin\x64;C:\Users\user\AppData\Local\Pandoc
+env PYTHONHASHSEED: 882
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env TOX_ENV_NAME: lint
+env TOX_WORK_DIR: D:\Sentiment\sentiment_webapp\.tox
+env TOX_ENV_DIR: D:\Sentiment\sentiment_webapp\.tox\test_app
+env VIRTUAL_ENV: D:\Sentiment\sentiment_webapp\.tox\test_app
+env COLUMNS: 299
+env LINES: 32
+metadata pid: 23880
+cwd: D:\Sentiment\sentiment_webapp
+allow: D:\Sentiment\sentiment_webapp\.tox\test_app\Scripts\*
+cmd: flake8 app
+exit_code: 0

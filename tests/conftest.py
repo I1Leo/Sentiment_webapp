@@ -1,17 +1,12 @@
 from typing import Generator
 
-import pandas as pd
 import pytest
 from fastapi.testclient import TestClient
-from titanic_model.config.core import config
-from titanic_model.processing.data_manager import load_dataset
 
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from app.main import app
-
-
-@pytest.fixture(scope="module")
-def test_data() -> pd.DataFrame:
-    return load_dataset(file_name=config.app_config.test_data_file)
 
 
 @pytest.fixture()
